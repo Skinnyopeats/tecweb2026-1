@@ -5,62 +5,72 @@
     <title>Aluno Online - Dashboard</title>
 </head>
 <body>
-    <table width="100%">
-        <tr>
-            <!-- Menu lateral -->
-            <td width="220" valign="top">
-                <p>&#127979; <strong>Aluno Online</strong></p>
-                <ul>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Notas</a></li>
-                    <li><a href="#">Faltas</a></li>
-                    <li><a href="#">Boletos</a></li>
-                    <li><a href="#">Requerimentos</a></li>
-                    <li><a href="#">Sair</a></li>
-                </ul>
-            </td>
 
-            <!-- Área principal -->
-            <td valign="top">
-                <!-- Topbar -->
-                <table width="100%">
-                    <tr>
-                        <td><h1>Ol&aacute;, Aluno!</h1></td>
-                        <td align="right">&#128100;</td>
-                    </tr>
-                </table>
+    <aside>
+        <p>&#127979; <strong>Aluno Online</strong></p>
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Notas</a></li>
+                <li><a href="#">Faltas</a></li>
+                <li><a href="#">Boletos</a></li>
+                <li><a href="#">Requerimentos</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+    </aside>
 
-                <h2>Bem-vindo ao portal do aluno</h2>
+    <main>
+        <header>
+            <h1>Olá, Aluno!</h1>
+            <span>&#128100;</span>
+        </header>
 
-                <!-- Mural de Avisos -->
-                <p><strong>Mural de Avisos</strong></p>
-                <ul>
-                    <li>Inscri&ccedil;&atilde;o para o projeto de extens&atilde;o</li>
-                    <li>Elei&ccedil;&atilde;o para representante de turma</li>
-                </ul>
+        <h2>Bem-vindo ao portal do aluno</h2>
 
-                <br>
+        <section>
+            <h3>Mural de Avisos</h3>
 
-                <!-- Calendário Acadêmico -->
-                <p><strong>Calend&aacute;rio Acad&ecirc;mico</strong></p>
-                <ul>
-                    <li>23/02 - In&iacute;cio do per&iacute;odo letivo 2026-1</li>
-                    <li>25/04 - Prazo final para aplica&ccedil;&atilde;o da P1</li>
-                    <li>23/06 - Prazo final para aplica&ccedil;&atilde;o da P2</li>
-                    <li>04/07 - Fim do per&iacute;odo letivo 2026-1</li>
-                </ul>
+            <article>
+                <p>Inscrição para o projeto de extensão</p>
+            </article>
 
-                <br>
+            <article>
+                <p>Eleição para representante de turma</p>
+            </article>
+        </section>
 
-                <!-- Minhas Disciplinas -->
-                <p><strong>Minhas Disciplinas</strong></p>
-                <ul>
-                    <li>Bancos de Dados I (HMDC253)</li>
-                    <li>Estrutura de Dados (MDC127)</li>
-                    <li>Tecnologias Web (HMDC251)</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+        <section>
+            <h3>Calendário Acadêmico</h3>
+
+            <article>
+                <p><time datetime="2026-02-23">23/02</time> - Início do período letivo 2026-1</p>
+            </article>
+            <article>
+                <p><time datetime="2026-04-25">25/04</time> - Prazo final para aplicação da P1</p>
+            </article>
+            <article>
+                <p><time datetime="2026-06-23">23/06</time> - Prazo final para aplicação da P2</p>
+            </article>
+            <article>
+                <p><time datetime="2026-07-04">04/07</time> - Fim do período letivo 2026-1</p>
+            </article>
+        </section>
+
+        <section>
+            <h3>Minhas Disciplinas</h3>
+
+            <article>
+                <p>Bancos de Dados I — <abbr title="Código da disciplina">HMDC253</abbr></p>
+            </article>
+            <article>
+                <p>Estrutura de Dados — <abbr title="Código da disciplina">MDC127</abbr></p>
+            </article>
+            <article>
+                <p>Tecnologias Web — <abbr title="Código da disciplina">HMDC251</abbr></p>
+            </article>
+        </section>
+    </main>
+
 </body>
 </html>
